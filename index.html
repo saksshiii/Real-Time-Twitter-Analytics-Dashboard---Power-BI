@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Analytics Dashboard</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Responsive container for images */
+        .dashboard {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .dashboard img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px;
+        }
+
+        /* Media query for small devices (mobiles) */
+        @media (max-width: 599px) {
+            .dashboard img {
+                width: 100%; /* Full-width images for small devices */
+            }
+        }
+
+        /* Media query for tablets and above */
+        @media (min-width: 600px) {
+            .dashboard img {
+                width: 48%; /* Half-width images for larger screens */
+            }
+        }
+
+        /* Media query for larger desktops */
+        @media (min-width: 900px) {
+            .dashboard img {
+                width: 30%; /* One-third width for large screens */
+            }
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1> Twitter Analytics Dashboard</h1>
+    </header>
+
+    <div class="dashboard">
+        <!-- Replace the image paths with relative or hosted URLs -->
+        <img src="D:\Mywebsite\Task 1.jpg" alt="Task 1">
+        <img src="D:\Mywebsite\Task 2.jpg" alt="Task 2">
+        <img src="D:\Mywebsite\Task 3.jpg" alt="Task 3">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Twitter Analytics Dashboard</p>
+    </footer>
+
+</body>
+</html>
+
